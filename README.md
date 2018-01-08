@@ -59,31 +59,31 @@ Below we will explore CSS selectors, CSS properties, and CSS values in more deta
 
 ## CSS Selectors
 
-CSS Selectors are a way of declaring which HTML element(s) we wish to style. 
+CSS Selectors are a way of declaring which HTML element(s) we wish to style.
 Selectors can be based on:
 
 - the type of HTML element(`h1`, `p`, `div`, etc.)
-- the value of an element id or class (`<p id='idvalue'></p>`, 
+- the value of an element id or class (`<p id='idvalue'></p>`,
 `<p class='classvalue'></p>`)
 - the value of an element's attributes
 - the element's relationship with surrounding elements (hierarchy)
 
-The type, id, and class are the most common type of selector. Let's review a few examples 
+The type, id, and class are the most common type of selector. Let's review a few examples
 of each selector.
 
 ### Type Selectors
 
-Type selectors are used to select elements based on their HTML element type. 
+Type selectors are used to select elements based on their HTML element type.
 The type selectors syntax is simply: `htmlelementname`.
 
 ```css
 /*
 selects all headers of type h3 in the document (e.g. <h3>Type selectors</h3>)
 */
-h1 
+h1
 
 /*
-selects all paragraph elements in the document (e.g. <p>TType selectors are used 
+selects all paragraph elements in the document (e.g. <p>TType selectors are used
 to...</p>)
 */
 p
@@ -94,62 +94,62 @@ p.s. this the CSS comment syntax
 
 ```
 
-You can find more information about type selectors on the Mozilla Developer 
+You can find more information about type selectors on the Mozilla Developer
 Network [type selectors documentation][].
 
 ### ID Selectors
 
-ID selectors are used to select elements based on their ID attribute value. 
-There should be only one element with a given ID in an HTML document. The ID 
+ID selectors are used to select elements based on their ID attribute value.
+There should be only one element with a given ID in an HTML document. The ID
 selector syntax is: `#idvalue`. Simply prefix the idvalue with a '#'.
 
 ```css
 /*
 selects the HTML element with the id 'main-header' (e.g. <h1 id='main-header'>)
 */
-#main-header  
-    
+#main-header
+
 /*
 selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-message'>)
 */
-#welcome-message  
+#welcome-message
 ```
- 
-You can find more information about ID selectors on the Mozilla Developer Network 
+
+You can find more information about ID selectors on the Mozilla Developer Network
 [id selectors documentation][].
- 
+
 ### Class Selectors
 
-Class selectors are used to select all elements that have a given class name. The 
+Class selectors are used to select all elements that have a given class name. The
 class selector syntax is: `.classname`. Simply prefix the classname with a '.'.
 
 ```css
 /*
-select all elements that have the 'main-headers' classname (e.g. <h1 class='main-headers'> 
+select all elements that have the 'main-headers' classname (e.g. <h1 class='main-headers'>
 and <h1 class='main-headers'>)
 */
 .main-headers
-    
+
 /*
-select all elements that have the 'welcome-message' classname (e.g. <p class='welcome-messages'> 
+select all elements that have the 'welcome-message' classname (e.g. <p class='welcome-messages'>
 and <p class='welcome-messages'>)
 */
 .welcome-messages
 ```
 
-You can find more information about class selectors on the Mozilla Developer 
+You can find more information about class selectors on the Mozilla Developer
 Network [class selectors documentation][].
 
 ## CSS Property Names
 
-Each element has a finite list of esthetic characteristics that can be styled. 
-CSS properties names identify those characteristics. Each element will have a 
-different set of property names. For text styling, examples of property names 
+Each element has a finite list of esthetic characteristics that can be styled.
+CSS properties names identify those characteristics. Each element will have a
+different set of property names. For text styling, examples of property names
 include text `color`, `text-align` and `line-height`.
 
 ## CSS Values
 
-Values are directly related to property names. If we are working with the `color` 
+Values are directly related to property names. If we are working with the `color`
 property the value could be a named-color such as `red`.
 
 ## CSS Declaration
@@ -167,11 +167,11 @@ CSS declaration should end with a semi-colon (;).
 
 ## CSS Declaration Blocks
 
-How can we apply the CSS declaration `color:blue` to a specific HTML element(s)? 
-We need to combine our CSS declaration with a CSS selector. The association 
-between one or more CSS declarations and a CSS selector is called a CSS declaration 
-block. CSS declarations (one o more) that applied to a specific selector are 
-wrapped by curly braces ({ }). Each declaration inside a declaration block has 
+How can we apply the CSS declaration `color:blue` to a specific HTML element(s)?
+We need to combine our CSS declaration with a CSS selector. The association
+between one or more CSS declarations and a CSS selector is called a CSS declaration
+block. CSS declarations (one o more) that applied to a specific selector are
+wrapped by curly braces ({ }). Each declaration inside a declaration block has
 to be separated by a semi-colon (;).
 
 Below is a sample CSS declaration block.
@@ -180,12 +180,12 @@ Below is a sample CSS declaration block.
 selector {
     property-name: value;
     property-name: value;
-} 
+}
 ```
 
 ```css
 /*
-The CSS declaration block below will apply to all h1 elements and will change the 
+The CSS declaration block below will apply to all h1 elements and will change the
 text color to blue and set the font family to Georgia.
 */
 h1 {
@@ -195,8 +195,8 @@ h1 {
 ```
 
 ## Applying CSS to an HTML Document
-Enough reading about HTML and CSS. Let's move on to the next lesson to edit some 
-CSS code and see how it will change the way the HTML document is displayed in the 
+Enough reading about HTML and CSS. Let's move on to the next lesson to edit some
+CSS code and see how it will change the way the HTML document is displayed in the
 browser.
 
 [type selectors documentation]: https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors
