@@ -18,8 +18,8 @@ As we write CSS these are the type of questions we might ask ourselves:
 - How should the same content appear differently on a desktop vs. a mobile
 device?
 
-These are the perspectives of the presentational layer (CSS).
 All of the questions above deal with the *esthetic* considerations of the page.
+These are the concerns of the presentation layer (CSS).
 
 Let's consider the type of questions we might ask ourselves as we write HTML:
 
