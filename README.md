@@ -150,7 +150,7 @@ CSS property names identify those characteristics. Each element will have a
 different set of property names. For text styling, examples of property names
 include text `color`, `text-align` and `line-height`.
 
-## CSS Values
+## CSS Property Values
 
 Values are directly related to property names. If we are working with the `color`
 property the value could be a named-color such as `red`.
