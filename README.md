@@ -194,7 +194,7 @@ The CSS declaration block below will apply to all `h1` elements and will change 
 text color to blue and set the font family to Georgia.
 */
 h1 {
-  color:blue;
+  color: blue;
   font-family: Georgia;
 }
 ```
