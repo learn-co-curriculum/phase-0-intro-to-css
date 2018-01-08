@@ -200,6 +200,7 @@ h1 {
 ```
 
 ## Applying CSS to an HTML Document
+
 Enough reading about HTML and CSS. Let's move on to the next lesson to edit some
 CSS code and see how it will change the way the HTML document is displayed in the
 browser.
