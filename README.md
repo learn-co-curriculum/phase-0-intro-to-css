@@ -175,8 +175,8 @@ How can we apply the CSS declaration `color: blue` to a specific HTML
 element(s)?  We need to combine our CSS declaration with a CSS selector. The
 association between one or more CSS declarations and a CSS selector is called a
 **CSS declaration block**. CSS declarations (one or more) that applied to a
-specific selector are wrapped by curly braces ({ }). Each declaration inside a
-declaration block **must** be separated by a semi-colon (;).
+specific selector are wrapped by curly braces (`{ }`). Each declaration inside a
+declaration block **must** be separated by a semi-colon (`;`).
 
 Below is a sample CSS declaration block.
 
