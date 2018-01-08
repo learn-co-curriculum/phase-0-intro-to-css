@@ -29,7 +29,7 @@ we write HTML:
 - Is this the most important header in the whole HTML document?
 
 The last few questions deal with structure, hierarchy, and meaning. These are
-the perspectives of the content layer (HTML).
+the concerns of the content layer (HTML).
 
 When we write CSS, we focus on esthetic and functional considerations. When we
 write HTML, we focus on structure, hierarchy, and meaning.
