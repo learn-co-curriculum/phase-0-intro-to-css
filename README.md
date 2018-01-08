@@ -100,9 +100,10 @@ Network [type selectors documentation][].
 
 ### ID Selectors
 
-ID selectors are used to select elements based on their ID attribute value.
-There should be only one element with a given ID in an HTML document. The ID
-selector syntax is: `#idvalue`. Simply prefix the idvalue with a '#'.
+Selectors based on the `id` of the element are called "ID Selectors.  **There
+should be only one element with a given ID** in an HTML document. The ID
+selector syntax is: `#idvalue`. Simply prefix the id attribute of an element
+with a '#'.
 
 ```css
 /*
