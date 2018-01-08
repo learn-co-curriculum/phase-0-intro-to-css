@@ -163,8 +163,8 @@ A CSS property name paired with a CSS property value is a **CSS declaration**.
 color:blue;
 /*
 This is a css declaration
-'color' is a property name and 'blue' is a value
-CSS declaration should end with a semi-colon (;).
+'color' is a property name and 'blue' is a css property value
+!!!!! CSS declarations must end with a semi-colon (;) !!!!!
 */
 ```
 
