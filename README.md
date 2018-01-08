@@ -81,7 +81,7 @@ The type selector syntax is simply: `htmlelementname`.
 /*
 selects all headers of type h3 in the document (e.g. <h3>Type selectors</h3>)
 */
-h1
+h3
 
 /*
 selects all paragraph elements in the document (e.g. <p>TType selectors are used
