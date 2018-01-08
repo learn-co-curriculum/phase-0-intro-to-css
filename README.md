@@ -63,13 +63,13 @@ CSS Selectors are a way of declaring which HTML element(s) we wish to style.
 Selectors can be based on:
 
 - the type of HTML element(`h1`, `p`, `div`, etc.)
-- the value of an element id or class (`<p id='idvalue'></p>`,
+- the value of an element's `id` or `class` (`<p id='idvalue'></p>`,
 `<p class='classvalue'></p>`)
 - the value of an element's attributes
 - the element's relationship with surrounding elements (hierarchy)
 
-The type, id, and class are the most common type of selector. Let's review a few examples
-of each selector.
+The element type, `id`, and `class` are the most commonly used selectors. Let's
+review a few examples of each selector.
 
 ### Type Selectors
 
