@@ -52,10 +52,11 @@ How can we translate the process of styling into CSS?
 1. **CSS selectors** are used to **identify HTML elements**
 2. **CSS properties** are used to **express the esthetic characteristics we wish
    to style**
-3. **CSS Values** are used to **express the desired states of the esthetic
-   characteristics**
+3. **CSS Property Values** are used to **express the desired states of the
+   esthetic characteristics**
 
-Below we will explore CSS selectors, CSS properties, and CSS values in more detail.
+Below we will explore CSS selectors, CSS properties, and CSS property values in
+more detail.
 
 ## CSS Selectors
 
@@ -152,8 +153,8 @@ include text `color`, `text-align` and `line-height`.
 
 ## CSS Property Values
 
-Values are directly related to property names. If we are working with the `color`
-property the value could be a named-color such as `red`.
+CSS Property Values are directly related to property names. If we are working
+with the `color` property the value could be a named-color such as `red`.
 
 ## CSS Declaration
 
