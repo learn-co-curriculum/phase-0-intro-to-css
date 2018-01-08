@@ -1,12 +1,13 @@
 # Introduction
 
 In the previous lesson, we introduced the distinction between content (the HTML
-document) and presentation ("Cascading Style Sheets" or CSS). Browsers combine the content and presentation
-layers to display HTML documents (web pages) to the user. Now it's time to dive
-a little deeper into the presentation perspective by learning about Cascading
-Style Sheets (CSS), the standard language to style and layout HTML elements.
-If you have ever been delighted by how a website appears or functions there is
-likely a good amount of CSS involved in crafting that experience.
+document) and presentation ("Cascading Style Sheets" or CSS). Browsers combine
+the content and presentation layers to display HTML documents (web pages) to
+the you. Now it's time to dive a little deeper into the presentation
+perspective by learning about Cascading Style Sheets (CSS), the standard
+language to style and layout HTML elements.  If you have ever been delighted by
+how a website appears or functions there is likely a good amount of CSS
+involved in crafting that experience.
 
 # How Does Writing CSS Differ From Writing HTML?
 
