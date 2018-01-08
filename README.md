@@ -122,8 +122,9 @@ You can find more information about ID selectors on the Mozilla Developer Networ
 
 ### Class Selectors
 
-Class selectors are used to select all elements that have a given class name. The
-class selector syntax is: `.classname`. Simply prefix the classname with a '.'.
+Class selectors are used to **select all elements that share a given class
+name**. The class selector syntax is: `.classname`. Simply prefix the class
+name with a '.'.
 
 ```css
 /*
