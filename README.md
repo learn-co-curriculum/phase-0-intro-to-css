@@ -21,7 +21,8 @@ device?
 All of the questions above deal with the *esthetic* considerations of the page.
 These are the concerns of the presentation layer (CSS).
 
-Let's consider the type of questions we might ask ourselves as we write HTML:
+As a contrast, let's consider the type of questions we might ask ourselves as
+we write HTML:
 
 - Does the order of items within a list matter? Should it be a numbered list?
 - Should we wrap a list of links inside a navigation tag?
