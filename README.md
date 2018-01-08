@@ -90,7 +90,7 @@ to...</p>)
 p
 
 /*
-p.s. this the CSS comment syntax
+p.s. The CSS comment syntax is text between "slash-star" and "star-slash"
 */
 
 ```
