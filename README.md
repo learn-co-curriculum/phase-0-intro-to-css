@@ -157,7 +157,7 @@ property the value could be a named-color such as `red`.
 
 ## CSS Declaration
 
-A property name paired with a value is a CSS declaration.
+A CSS property name paired with a CSS property value is a **CSS declaration**.
 
 ```css
 color:blue;
