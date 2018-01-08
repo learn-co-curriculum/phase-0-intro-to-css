@@ -146,7 +146,7 @@ Network [class selectors documentation][].
 ## CSS Property Names
 
 Each element has a finite list of esthetic characteristics that can be styled.
-CSS properties names identify those characteristics. Each element will have a
+CSS property names identify those characteristics. Each element will have a
 different set of property names. For text styling, examples of property names
 include text `color`, `text-align` and `line-height`.
 
