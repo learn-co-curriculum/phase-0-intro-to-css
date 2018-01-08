@@ -128,16 +128,16 @@ name with a '.'.
 
 ```css
 /*
-select all elements that have the 'main-headers' classname (e.g. <h1 class='main-headers'>
-and <h1 class='main-headers'>)
+select all elements that have the 'important-topic' classname (e.g. <h1 class='important-topic'>
+and <h1 class='important-topic'>)
 */
-.main-headers
+.important-topic
 
 /*
-select all elements that have the 'welcome-message' classname (e.g. <p class='welcome-messages'>
-and <p class='welcome-messages'>)
+select all elements that have the 'welcome-message' classname (e.g. <p class='helpful-hint'>
+and <p class='helpful-hint'>)
 */
-.welcome-messages
+.helpful-hint
 ```
 
 You can find more information about class selectors on the Mozilla Developer
