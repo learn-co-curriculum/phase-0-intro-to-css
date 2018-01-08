@@ -49,7 +49,7 @@ The process of styling HTML can be described in three steps:
 
 How can we translate the process of styling into CSS?
 
-1. **CSS selectors** are sued to **identify HTML elements**
+1. **CSS selectors** are used to **identify HTML elements**
 2. **CSS properties** are used to **express the esthetic characteristics we wish 
 to style**
 3. **CSS Values** are used to **express the desired end state**
