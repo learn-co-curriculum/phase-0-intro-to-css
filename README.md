@@ -186,9 +186,11 @@ selector {
 }
 ```
 
+Let's write a full example declaration block.
+
 ```css
 /*
-The CSS declaration block below will apply to all h1 elements and will change the
+The CSS declaration block below will apply to all `h1` elements and will change the
 text color to blue and set the font family to Georgia.
 */
 h1 {
