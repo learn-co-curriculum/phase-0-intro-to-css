@@ -75,7 +75,7 @@ review a few examples of each selector.
 ### Type Selectors
 
 Type selectors are used to select elements based on their HTML element type.
-The type selectors syntax is simply: `htmlelementname`.
+The type selector syntax is simply: `htmlelementname`.
 
 ```css
 /*
