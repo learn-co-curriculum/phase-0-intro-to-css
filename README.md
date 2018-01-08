@@ -161,7 +161,7 @@ with the `color` property the value could be a named-color such as `red`.
 A CSS property name paired with a CSS property value is a **CSS declaration**.
 
 ```css
-color:blue;
+color: blue;
 /*
 This is a css declaration
 'color' is a property name and 'blue' is a css property value
@@ -171,7 +171,7 @@ This is a css declaration
 
 ## CSS Declaration Blocks
 
-How can we apply the CSS declaration `color:blue` to a specific HTML
+How can we apply the CSS declaration `color: blue` to a specific HTML
 element(s)?  We need to combine our CSS declaration with a CSS selector. The
 association between one or more CSS declarations and a CSS selector is called a
 **CSS declaration block**. CSS declarations (one or more) that applied to a
