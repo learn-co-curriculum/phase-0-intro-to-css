@@ -65,8 +65,9 @@ Selectors can be based on:
 - the type of HTML element(`h1`, `p`, `div`, etc.)
 - the value of an element's `id` or `class` (`<p id='idvalue'></p>`,
 `<p class='classvalue'></p>`)
-- the value of an element's attributes
-- the element's relationship with surrounding elements (hierarchy)
+- the value of an element's attributes (`value="hello"`)
+- the element's relationship with surrounding elements (a `p` within an
+  `.infobox`)
 
 The element type, `id`, and `class` are the most commonly used selectors. Let's
 review a few examples of each selector.
