@@ -39,7 +39,7 @@ write HTML, we focus on structure, hierarchy, and meaning.
 The process of styling HTML can be described in three steps:
 
 1. Identify the specific HTML element we wish to style.
-2. Once we identify the HTML element. We must determine what esthetic
+2. We must determine what esthetic
 characteristics (CSS properties) we wish to modify. In the case of text do
 we wish to change the color of the font? Change the size of the font?
 3. Once we identify what CSS property we wish to modify, we must determine the
