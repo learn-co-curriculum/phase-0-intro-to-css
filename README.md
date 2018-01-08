@@ -84,7 +84,7 @@ selects all headers of type h3 in the document (e.g. <h3>Type selectors</h3>)
 h3
 
 /*
-selects all paragraph elements in the document (e.g. <p>TType selectors are used
+selects all paragraph elements in the document (e.g. <p>Type selectors are used
 to...</p>)
 */
 p
