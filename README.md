@@ -13,7 +13,7 @@ mobile device, you have CSS to thank for it.
 
 As we write CSS these are the type of questions we might ask ourselves:
 
-- Should we layout the text in a single or double column?
+- Should the layout of the text be in a single or double column?
 - Should we use a different font color for the header?
 - How should the same content appear differently on a desktop vs. a mobile
 device?
