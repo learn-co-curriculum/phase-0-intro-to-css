@@ -73,7 +73,7 @@ of each selector.
 ### Type Selectors
 
 Type selectors are used to select elements based on their HTML element type. 
-The type selectors syntax is simply: `htmlelementname`
+The type selectors syntax is simply: `htmlelementname`.
 
 ```css
 /*
@@ -94,7 +94,7 @@ p.s. this the CSS comment syntax
 ```
 
 You can find more information about type selectors on the Mozilla Developer 
-Network [type selectors documentation][]
+Network [type selectors documentation][].
 
 ### ID Selectors
 
@@ -115,7 +115,7 @@ selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-mess
 ```
  
 You can find more information about ID selectors on the Mozilla Developer Network 
-[id selectors documentation][]
+[id selectors documentation][].
  
 ### Class Selectors
 
@@ -137,7 +137,7 @@ and <p class='welcome-messages'>)
 ```
 
 You can find more information about class selectors on the Mozilla Developer 
-Network [class selectors documentation][]
+Network [class selectors documentation][].
 
 ## CSS Property Names
 
