@@ -177,8 +177,8 @@ Below is a sample CSS declaration block.
 
 ```css
 selector {
-    property-name: value;
-    property-name: value;
+  property-name: value;
+  property-name: value;
 } 
 ```
 
@@ -188,8 +188,8 @@ The CSS declaration block below will apply to all h1 elements and will change th
 text color to blue and set the font family to Georgia.
 */
 h1 {
-    color:blue;
-    font-family: Georgia;
+  color:blue;
+  font-family: Georgia;
 }
 ```
 
