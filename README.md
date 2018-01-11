@@ -43,7 +43,7 @@ The process of styling HTML can be described in three steps:
    modify. In the case of text do we wish to change the color of
    the font?
 3. Determine the desired state of esthetic characteristic ("CSS property"). In
-   the case of text do we wish the color to appear red, blue, etc.?
+   the case of text, do we wish the color to appear red, blue, etc.?
 
 # The Basics of CSS
 
