@@ -154,7 +154,7 @@ include text `color`, `text-align` and `line-height`.
 ## CSS Property Values
 
 CSS Property Values are directly related to property names. If we are working
-with the `color` property the value could be a named-color such as `red`.
+with the `color` property, the value could be a named color such as `red`.
 
 ## CSS Declaration
 
