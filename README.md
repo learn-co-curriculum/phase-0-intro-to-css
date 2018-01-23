@@ -40,10 +40,10 @@ The process of styling HTML can be described in three steps:
 
 1. Identify the specific HTML element we wish to style.
 2. Determine what esthetic characteristics ("CSS properties") we wish to
-   modify. In the case of text do we wish to change the color of
+   modify. In the case of text, do we wish to change the color of
    the font?
 3. Determine the desired state of esthetic characteristic ("CSS property"). In
-   the case of text do we wish the color to appear red, blue, etc.?
+   the case of text, do we wish the color to appear red, blue, etc.?
 
 # The Basics of CSS
 
@@ -154,7 +154,7 @@ include text `color`, `text-align` and `line-height`.
 ## CSS Property Values
 
 CSS Property Values are directly related to property names. If we are working
-with the `color` property the value could be a named-color such as `red`.
+with the `color` property, the value could be a named color such as `red`.
 
 ## CSS Declaration
 
