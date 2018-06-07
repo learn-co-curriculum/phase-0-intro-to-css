@@ -1,13 +1,13 @@
 # Diving into the World of CSS (Cascading Stylesheets)
 
 ## Problem Statement
-As you may have learned, browsers combine the content (HTML) and presentation 
-(CSS) layers to display web pages. CSS is the standard language for styling 
-web pages from these HTML elements, and had different syntax to achieve a 
-specific look, feel, and level of functionality to sites and apps. If you 
-have ever been impressed by how a website can be displayed on a desktop 
-browser while the same content looks great on a mobile device, you have 
-CSS to thank for it! We know now what CSS is and its purpose, so how does
+Browsers combine the content (HTML) and presentation (CSS) layers to 
+display web pages. CSS is the standard language for styling  web pages from 
+these HTML elements, and had different syntax to achieve a specific look, 
+feel, and level of functionality to sites and apps. If you have ever 
+been impressed by how a website can be displayed on a desktop browser 
+while the same content looks great on a mobile device, you have CSS to 
+thank for it! We know now what CSS is and its purpose, so how does
 it differ from HTML and how can we utilize it?
 
 ## Overview
@@ -17,9 +17,9 @@ it differ from HTML and how can we utilize it?
 
 ## Recognize the differences between HTML and CSS
 
-From a conceptual standpoint, we understand that HTML and CSS play two
-inherently different roles. When we write HTML, we focus on structure, 
-hierarchy, and meaning.When writing HTML, some of the questions you 
+From a conceptual standpoint, we can understand that HTML and CSS play 
+two inherently different roles. When we write HTML, we focus on structure, 
+hierarchy, and meaning. When writing HTML, some of the questions you 
 might consider would be:
 
 - How many columns should this page have to display content?
@@ -30,8 +30,8 @@ or mixed media elements?
 
 These questions deal with structure, hierarchy, and meaning, which are
 are concerns of the content layer. What does this mean as we 
-start to define the presentation layer? As you write CSS, these are 
-some questions you might ask yourself in the process:
+start to define the presentation layer with CSS? As you write the CSS, 
+these are some questions you might ask yourself in the process:
 
 - Do we want the header menu to be stationary, or does it scroll with the 
 browser window?
@@ -142,7 +142,7 @@ selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-mess
 You can find more information about ID selectors on the Mozilla Developer Network
 [id selectors documentation][].
 
-## Declare CSS properties and values
+## Declare CSS properties and Values
 
 Each element has a finite list of characteristics that can be styled.
 CSS "property" names identify those characteristics. For text styling, 
@@ -150,7 +150,7 @@ examples of property names include text `color`, `text-align` and `line-height`.
 
 CSS Property Values are directly related to property names. If we are 
 working with the `color` property, the value could be a named color 
-such as `red`, or `#330000`.
+such as `red`, or `#660000`.
 
 A CSS property name paired with a CSS property value is a **CSS declaration**.
 In order to apply a CSS declaration like `color: blue` to a specific HTML
@@ -174,7 +174,7 @@ This is a css declaration for a selector
 */
 ```
 
-Let's write a full example declaration block.
+Let's write a more complete example declaration block.
 
 ```css
 /*
