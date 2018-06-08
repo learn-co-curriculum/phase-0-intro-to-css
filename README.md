@@ -10,7 +10,7 @@ while the same content looks great on a mobile device, you have CSS to
 thank for it! We know now what CSS is and its purpose, so how does
 it differ from HTML and how can we utilize it?
 
-## Overview
+## Objectives
 1. Recognize the differences between HTML and CSS
 2. List the basics of CSS
 3. Declare CSS properties and values
@@ -54,9 +54,9 @@ of how writing HTML differs from writing CSS.
 For each style, there are 3 things to keep in mind:
 
 1. What is the specific HTML you want to style?
-2. What are the aesthetic characteristics you want to modify?
+2. What are the characteristics you want to modify?
 (eg. the properties of text in a paragraph)
-3. How do we want to modify the aesthetic characteristics of the element?
+3. How do we want to modify the characteristics of the element?
 (eg. font family, font color, font size, line height, letter spacing etc.)
 
 Once you've decided what to modify and how, we can start writing CSS using
@@ -69,7 +69,7 @@ wish to style. Selectors can look a few different ways:
 - The element's relationship with surrounding elements (a `p` within an
 element with class of `.infobox`)
 
-With global rules, targeting the type selector is preferred. Type selectors 
+With styles that apply to the every instance of a tag across your site (called _global rules_), targeting the type selector is preferred. Type selectors 
 are used to select elements based on their HTML element type. For example if
 you want the body of the page to have a black background, your selector syntax
 may be `html` or `body`. For anchors, you selector would be `a`. A few more
@@ -123,9 +123,6 @@ should be only one element with a given ID** in an HTML document. This
 can make styling with the ID selector good for one-off styles. The ID
 selector syntax is: `#idvalue`. Prefix the id attribute of an element
 with a '#' (hashtag/pound sign). 
-
-You can find more information about type selectors on the Mozilla Developer
-Network [type selectors documentation][].
 
 ```css
 /*
