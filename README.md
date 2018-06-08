@@ -2,12 +2,23 @@
 
 ## Problem Statement
 Browsers combine the content (HTML) and presentation (CSS) layers to 
-display web pages. CSS is the standard language for styling  web pages from 
+display web pages. CSS is the standard language for styling web pages from 
 these HTML elements, and had different syntax to achieve a specific look, 
 feel, and level of functionality to sites and apps. If you have ever 
 been impressed by how a website can be displayed on a desktop browser 
 while the same content looks great on a mobile device, you have CSS to 
-thank for it! We know now what CSS is and its purpose, so how does
+thank for it! CSS may sometimes be underestimated, but is a powerful 
+language that can dramatically improve the readability, functionality,
+and visual quality of a website. Dramatic effects can be achieved from
+modifying CSS, without touching any HTML. Examples of this can be found
+on [CSS Zen Garden](http://www.csszengarden.com/). Below are 3 examples
+of the same HTML, completely redesigned with the use of CSS alone.
+
+![CSS Zen Garden 1](http://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png)
+![CSS Zen Garden 2](http://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png)
+![CSS Zen Garden 3](http://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png)
+
+We know now what CSS is and its purpose, so how does
 it differ from HTML and how can we utilize it?
 
 ## Objectives
@@ -69,10 +80,10 @@ wish to style. Selectors can look a few different ways:
 - The element's relationship with surrounding elements (a `p` within an
 element with class of `.infobox`)
 
-With styles that apply to the every instance of a tag across your site (called _global rules_), targeting the type selector is preferred. Type selectors 
-are used to select elements based on their HTML element type. For example if
-you want the body of the page to have a black background, your selector syntax
-may be `html` or `body`. For anchors, you selector would be `a`. A few more
+With styles that apply to the every instance of a tag across your site (called _global rules_), 
+targeting the type selector is preferred. Type selectors are used to select elements based on 
+their HTML element type. For example if you want the body of the page to have a black background, 
+your selector syntax may be `html` or `body`. For anchors, you selector would be `a`. A few more
 examples are listed below:
 
 ```css
@@ -97,7 +108,7 @@ to...</p>)
 p
 ```
 You can find more information about type selectors on the Mozilla Developer
-Network [type selectors documentation][].
+Network [type selectors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors).
 
 The element type `class` is a commonly used selector. Class selectors are 
 used to **select all elements that share a given class
@@ -119,10 +130,12 @@ and <p class='helpful-hint'>)
 ```
 
 You can also use the `id` selector to style elements. However **There
-should be only one element with a given ID** in an HTML document. This
-can make styling with the ID selector good for one-off styles. The ID
+should be only one element with a given id** in an HTML document. This
+can make styling with the ID selector ideal for one-off styles. The id
 selector syntax is: `#idvalue`. Prefix the id attribute of an element
-with a '#' (hashtag/pound sign). 
+with a '#' (hashtag/pound sign). Id selectors are more commonly used for
+selecting elements for JavaScript, however, we will explain that in later
+lessons!
 
 ```css
 /*
@@ -137,7 +150,7 @@ selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-mess
 ```
 
 You can find more information about ID selectors on the Mozilla Developer Network
-[id selectors documentation][].
+[id selectors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors).
 
 ## Declare CSS properties and Values
 
