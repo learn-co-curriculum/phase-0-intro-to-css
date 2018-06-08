@@ -133,8 +133,8 @@ You can also use the `id` selector to style elements. However **There
 should be only one element with a given id** in an HTML document. This
 can make styling with the ID selector ideal for one-off styles. The id
 selector syntax is: `#idvalue`. Prefix the id attribute of an element
-with a '#' (hashtag/pound sign). Id selectors are more commonly used for
-selecting elements for JavaScript, however, we will explain that in later
+with a '#' (hashtag/pound sign). Id selectors are more commonly used to
+select elements for JavaScript, however, we will explain that in later
 lessons!
 
 ```css
