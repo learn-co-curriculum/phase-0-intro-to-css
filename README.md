@@ -14,9 +14,9 @@ modifying CSS, without touching any HTML. Examples of this can be found
 on [CSS Zen Garden](http://www.csszengarden.com/). Below are 3 examples
 of the same HTML, completely redesigned with the use of CSS alone.
 
-![CSS Zen Garden 1](http://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png)
-![CSS Zen Garden 2](http://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png)
-![CSS Zen Garden 3](http://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png)
+![CSS Zen Garden 1](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden1.png "A long-scrolling single-page CSS Zen Garden design")
+![CSS Zen Garden 2](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden2.png "An animated CSS, full-screen browser single-page style Zen Garden design")
+![CSS Zen Garden 3](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png "Blog-like CSS Zen Garden designs")
 
 We know now what CSS is and its purpose, so how does
 it differ from HTML and how can we utilize it?
