@@ -60,23 +60,23 @@ ourselves:
   mobile device?
 
 As you ask yourself these questions, your focus is on the *aesthetic* quality
-of the page. For each bit of _content_ you can define a _presentation rule_
+of the page. For each bit of _content_ we can define a _presentation rule_
 that will change the way the HTML is displayed.
 
 ## List the Basics of CSS
 
-For each style, there are 3 things to keep in mind:
+For each _presentation rule_, there are 3 things to keep in mind:
 
-1. What is the specific HTML you want to style?
-2. What are the qualities you want to modify (e.g. the properties of text
+1. What is the specific HTML we want to style?
+2. What are the qualities we want to modify (e.g. the properties of text
    in a paragraph)?
-3. How do we want to modify the qualities of the element (e.g. font
+3. _How_ do we want to modify the qualities of the element (e.g. font
    family, font color, font size, line height, letter spacing etc.)?
 
 Once you've decided what to modify and how, we can start writing CSS rules.
 
 CSS selectors are a way of declaring which HTML elements you wish to style.
-Selectors can look a few different ways:
+Selectors can appear a few different ways:
 
 - The type of HTML element(`h1`, `p`, `div`, etc.)
 - The value of an element's `id` or `class` (`<p id='idvalue'></p>`, `<p
@@ -84,7 +84,6 @@ Selectors can look a few different ways:
 - The value of an element's attributes (`value="hello"`)
 - The element's relationship with surrounding elements (a `p` within an element
   with class of `.infobox`)
-- Every single HTML element ("global rule") with `*`
 
 For example if you want the body of the page to have a black background, your
 selector syntax may be `html` or `body`. For anchors, you selector would be
@@ -111,7 +110,8 @@ to...</p>)
 */
 p
 ```
-[Type selectors doc](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors).
+
+[Type selectors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)
 
 The element type `class` is a commonly used selector. Class selectors are used
 to **select all elements that share a given class name**. The class selector
@@ -134,8 +134,8 @@ and <p class='helpful-hint'>)
 You can also use the `id` selector to style elements. However, **there should
 be only one element with a given id** in an HTML document. This can make
 styling with the ID selector ideal for one-off styles. The `id` selector syntax
-is: `#idvalue`. Prefix the id attribute of an element with a '#' (hashtag/pound
-sign).
+is: `#idvalue`. Prefix the id attribute of an element with a `#` (which is
+called "octothorpe," "pound sign", or "hashtag").
 
 ```css
 /*
@@ -149,13 +149,13 @@ selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-mess
 #welcome-message
 ```
 
-[id selectors doc](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors).
+[id selectors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors)
 
 ## Declare CSS Properties and Values
 
-Each element has a finite list of qualities that can be styled.  CSS
-"property" names identify those qualities. For text styling, examples of
-property names include text `color`, `text-align` and `line-height`.
+Each element has a list of qualities that can be styled.  CSS "property" names
+identify those qualities. For text styling, examples of property names include
+text `color`, `text-align` and `line-height`.
 
 CSS Property Values are directly related to property names. If we are working
 with the `color` property, the value could be a named color such as `red`, or
@@ -202,6 +202,5 @@ h1 {
 
 With the combination of HTML and CSS, you are able to define content,
 structure, and style to websites. Using a CSS selector like `h1` or `p` paired
-with a property declaration and value will adjust the display of that element.
-As you add styling to elements, you will see how it changes the way the HTML
-document is displayed in the browser.
+with a declaration block, you will change the display of that element.
+Declaration blocks are collections of CSS properties and values.
