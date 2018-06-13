@@ -1,90 +1,94 @@
 # Diving into the World of CSS (Cascading Stylesheets)
 
 ## Problem Statement
-Browsers combine the content (HTML) and presentation (CSS) layers to 
-display web pages. CSS is the standard language for styling web pages from 
-these HTML elements, and had different syntax to achieve a specific look, 
-feel, and level of functionality to sites and apps. If you have ever 
-been impressed by how a website can be displayed on a desktop browser 
-while the same content looks great on a mobile device, you have CSS to 
-thank for it! CSS may sometimes be underestimated, but is a powerful 
-language that can dramatically improve the readability, functionality,
-and visual quality of a website. Dramatic effects can be achieved from
-modifying CSS, without touching any HTML. Examples of this can be found
-on [CSS Zen Garden](http://www.csszengarden.com/). Below are 3 examples
-of the same HTML, completely redesigned with the use of CSS alone.
+
+Browsers combine the content (HTML) and presentation (CSS) layers to
+display web pages.  CSS is the language for styling web pages.
+
+CSS instructions live apart from the HTML elements and have a different
+look and feel ("syntax"). CSS directives give web pages their specific look and
+feel.  If you have ever been impressed by how a website can be displayed on a
+desktop browser while the same content looks great on a mobile device, you have
+CSS to thank for it!
+
+One of the most amazing displays of the power of CSS is the
+[CSS Zen Garden](http://www.csszengarden.com/) where people take the _exact
+same_ HTML page and use CSS to create _wildly_ different pages. Take a look!
 
 ![CSS Zen Garden 1](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden1.png "A long-scrolling single-page CSS Zen Garden design")
 ![CSS Zen Garden 2](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden2.png "An animated CSS, full-screen browser single-page style Zen Garden design")
 ![CSS Zen Garden 3](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png "Blog-like CSS Zen Garden designs")
 
-We know now what CSS is and its purpose, so how does
-it differ from HTML and how can we utilize it?
+Like we said: all the difference between these images is created by CSS!
+Astounding, right!?
+
+We know now what CSS is and its purpose, so how does it differ from HTML and
+how can we use it?
 
 ## Objectives
+
 1. Recognize the differences between HTML and CSS
 2. List the basics of CSS
 3. Declare CSS properties and values
 
-## Recognize the differences between HTML and CSS
+## Recognize The Differences Between HTML And CSS
 
-From a conceptual standpoint, we can understand that HTML and CSS play 
-two inherently different roles. When we write HTML, we focus on structure, 
-hierarchy, and meaning. When writing HTML, some of the questions you 
-might consider would be:
+HTML and CSS play two different roles. When we write HTML, we focus on
+structure, hierarchy, and meaning &mdash; the "marking-up" of content.
+Questions in the mind of an HTML author are:
 
-- How many columns should this page have to display content?
-- Is this content going to display in a list-style format? 
-Is it ordered or unordered? Will it display text, images, 
-or mixed media elements?
-- Is this the most important header in the whole HTML document?
+* Is it best to list these members' names with numbers, or bullets?
+* Does this menu belong in in the navigation in the header?
+* Should this additional reference be an aside, or a separate section?
 
 These questions deal with structure, hierarchy, and meaning, which are
-are concerns of the content layer. What does this mean as we 
-start to define the presentation layer with CSS? As you write the CSS, 
-these are some questions you might ask yourself in the process:
+are concerns of the content layer (HTML).
 
-- Do we want the header menu to be stationary, or does it scroll with the 
-browser window?
-- How do we want the content to display inside of a container? For example, 
-does it fill the whole area, edge-to-edge? Is there white space around 
-the content and/or the container? 
-- How large should an H1 be relative to an H2? What about an H3? 
-- What properties should inline links have? Underline or no underline? 
-Which color for the normal state vs. the hover state? Should the 
-visited link state be different?
-- How should the content appear when on a desktop machine vs. a 
-mobile device?
+When defining the presentation layer (CSS), here are the questions we ask
+ourselves:
 
-As you ask yourself these questions, your focus is on the *aesthetic* 
-and display considerations of the page. These are just a few examples 
-of how writing HTML differs from writing CSS.
+* Do we want the header menu to be stationary, or does it scroll with the
+  browser window?
+* How do we want the content to display inside of a container? For example,
+  does it fill the whole area, edge-to-edge? Is there white space around
+  the content and/or the container?
+* How large should an `H1` be relative to an `H2`? What about an `H3`?
+* What properties should links have? Underline or no underline?
+  Which color for the normal state versus the hover state? Should the
+  visited link state be different?
+* How should the content appear when on a desktop machine versus a
+  mobile device?
+
+As you ask yourself these questions, your focus is on the *aesthetic* quality
+of the page. For each bit of _content_ you can define a _presentation rule_
+that will change the way the HTML is displayed.
 
 ## List the Basics of CSS
 
 For each style, there are 3 things to keep in mind:
 
 1. What is the specific HTML you want to style?
-2. What are the characteristics you want to modify?
-(eg. the properties of text in a paragraph)
-3. How do we want to modify the characteristics of the element?
-(eg. font family, font color, font size, line height, letter spacing etc.)
+2. What are the qualities you want to modify (e.g. the properties of text
+   in a paragraph)?
+3. How do we want to modify the qualities of the element (e.g. font
+   family, font color, font size, line height, letter spacing etc.)?
 
-Once you've decided what to modify and how, we can start writing CSS using
-`selectors`. CSS selectors are a way of declaring which HTML elements you 
-wish to style. Selectors can look a few different ways:
+Once you've decided what to modify and how, we can start writing CSS rules.
+
+CSS selectors are a way of declaring which HTML elements you wish to style.
+Selectors can look a few different ways:
+
 - The type of HTML element(`h1`, `p`, `div`, etc.)
-- The value of an element's `id` or `class` (`<p id='idvalue'></p>`,
-`<p class='classname'></p>`)
+- The value of an element's `id` or `class` (`<p id='idvalue'></p>`, `<p
+  class='classname'></p>`)
 - The value of an element's attributes (`value="hello"`)
-- The element's relationship with surrounding elements (a `p` within an
-element with class of `.infobox`)
+- The element's relationship with surrounding elements (a `p` within an element
+  with class of `.infobox`)
+- Every single HTML element ("global rule") with `*`
 
-With styles that apply to the every instance of a tag across your site (called _global rules_), 
-targeting the type selector is preferred. Type selectors are used to select elements based on 
-their HTML element type. For example if you want the body of the page to have a black background, 
-your selector syntax may be `html` or `body`. For anchors, you selector would be `a`. A few more
-examples are listed below:
+For example if you want the body of the page to have a black background, your
+selector syntax may be `html` or `body`. For anchors, you selector would be
+`a`. A few more examples are listed below:
 
 ```css
 /*
@@ -107,13 +111,11 @@ to...</p>)
 */
 p
 ```
-You can find more information about type selectors on the Mozilla Developer
-Network [type selectors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors).
+[Type selectors doc](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors).
 
-The element type `class` is a commonly used selector. Class selectors are 
-used to **select all elements that share a given class
-name**. The class selector syntax is: `.classname`. Prefix the class
-name with a '.'(period).
+The element type `class` is a commonly used selector. Class selectors are used
+to **select all elements that share a given class name**. The class selector
+syntax is: `.classname`. Prefix the class name with a '.'(period).
 
 ```css
 /*
@@ -129,13 +131,11 @@ and <p class='helpful-hint'>)
 .helpful-hint
 ```
 
-You can also use the `id` selector to style elements. However **There
-should be only one element with a given id** in an HTML document. This
-can make styling with the ID selector ideal for one-off styles. The id
-selector syntax is: `#idvalue`. Prefix the id attribute of an element
-with a '#' (hashtag/pound sign). Id selectors are more commonly used to
-select elements for JavaScript, however, we will explain that in later
-lessons!
+You can also use the `id` selector to style elements. However, **there should
+be only one element with a given id** in an HTML document. This can make
+styling with the ID selector ideal for one-off styles. The `id` selector syntax
+is: `#idvalue`. Prefix the id attribute of an element with a '#' (hashtag/pound
+sign).
 
 ```css
 /*
@@ -149,34 +149,33 @@ selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-mess
 #welcome-message
 ```
 
-You can find more information about ID selectors on the Mozilla Developer Network
-[id selectors documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors).
+[id selectors doc](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors).
 
-## Declare CSS properties and Values
+## Declare CSS Properties and Values
 
-Each element has a finite list of characteristics that can be styled.
-CSS "property" names identify those characteristics. For text styling, 
-examples of property names include text `color`, `text-align` and `line-height`.
+Each element has a finite list of qualities that can be styled.  CSS
+"property" names identify those qualities. For text styling, examples of
+property names include text `color`, `text-align` and `line-height`.
 
-CSS Property Values are directly related to property names. If we are 
-working with the `color` property, the value could be a named color 
-such as `red`, or `#660000`.
+CSS Property Values are directly related to property names. If we are working
+with the `color` property, the value could be a named color such as `red`, or
+`#660000`. Some properties have their values set with words, others with
+numbers, and some can take both.
 
-A CSS property name paired with a CSS property value is a **CSS declaration**.
-In order to apply a CSS declaration like `color: blue` to a specific HTML
+A CSS property name with a CSS property value is a **CSS declaration**.
+To apply a CSS declaration like `color: blue` to a specific HTML
 element, you need to combine your CSS declaration with a CSS selector. The
-association between one or more CSS declarations and a CSS selector is 
-called a **CSS declaration block**. CSS declarations (one or more) that 
-applied to a specific selector are wrapped by curly braces (`{ }`). 
-Each declaration inside a declaration block **must** be separated 
-by a semi-colon (`;`).
+association between one or more CSS declarations and a CSS selector is called a
+**CSS declaration block**. CSS declarations (one or more) that applied to a
+specific selector are wrapped by curly braces (`{ }`).  Each declaration inside
+a declaration block **must** be separated by a semi-colon (`;`).
 
 Below is a sample CSS declaration block.
 
 ```css
 selector {
   color: blue;
-} 
+}
 /*
 This is a css declaration for a selector
 'color' is a property name and 'blue' is a css property value
@@ -188,8 +187,10 @@ Let's write a more complete example declaration block.
 
 ```css
 /*
-The CSS declaration block below will apply to all `h1` elements and will change the
-text color to blue and set the font family to Georgia.
+The CSS declaration block below:
+* Will apply to all `h1` elements
+* Will change the text color to blue
+* Will set the font family to Georgia
 */
 h1 {
   color: blue;
@@ -198,9 +199,9 @@ h1 {
 ```
 
 ## Conclusion
-With the combination of HTML and CSS, you are able to define content, 
-structure, and style to websites. Using a CSS selector like `h1` or `p`
-paired with a property declaration and value will adjust the visual 
-characteristics of that element. As you add styling to elements, 
-you will see how it changes the way the HTML document is displayed 
-in the browser.
+
+With the combination of HTML and CSS, you are able to define content,
+structure, and style to websites. Using a CSS selector like `h1` or `p` paired
+with a property declaration and value will adjust the display of that element.
+As you add styling to elements, you will see how it changes the way the HTML
+document is displayed in the browser.
