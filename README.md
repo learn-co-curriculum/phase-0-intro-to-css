@@ -125,7 +125,7 @@ and <h1 class='important-topic'>)
 .important-topic
 
 /*
-select all elements that have the 'welcome-message' classname (e.g. <p class='helpful-hint'>
+select all elements that have the 'helpful-hint' classname (e.g. <p class='helpful-hint'>
 and <p class='helpful-hint'>)
 */
 .helpful-hint
