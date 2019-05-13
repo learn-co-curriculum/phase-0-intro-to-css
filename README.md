@@ -204,3 +204,7 @@ With the combination of HTML and CSS, you are able to define content,
 structure, and style to websites. Using a CSS selector like `h1` or `p` paired
 with a declaration block, you will change the display of that element.
 Declaration blocks are collections of CSS properties and values.
+
+## Resources
+
+- [Mozilla Developer Network: Introduction to CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
