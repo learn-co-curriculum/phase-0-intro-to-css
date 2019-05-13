@@ -9,13 +9,13 @@
 ## Introduction
 
 Browsers combine the content (HTML) and presentation (CSS) layers to
-display web pages. CSS is the language for styling web pages.
+display web pages. CSS is the language we use for styling web pages.
 
-CSS instructions live apart from the HTML elements and have a different
-look and feel ("syntax"). CSS directives give web pages their specific look and
-feel. If you have ever been impressed by how a website can be displayed on a
-desktop browser while the same content looks great on a mobile device, you have
-CSS to thank for it!
+CSS instructions live apart from the HTML elements and have a different look and
+feel ("syntax"). CSS directives give web pages their specific appearance. If you
+have ever been impressed by how a website can be displayed on a desktop browser
+while the same content looks great on a mobile device, you have CSS to thank for
+it!
 
 One of the most amazing displays of the power of CSS is the
 [CSS Zen Garden](http://www.csszengarden.com/) where people take the _exact
@@ -153,7 +153,7 @@ selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-mess
 
 ## Declare CSS Properties and Values
 
-Each element has a list of qualities that can be styled.  CSS "property" names
+Each element has a list of qualities that can be styled. CSS "property" names
 identify those qualities. For text styling, examples of property names include
 text `color`, `text-align` and `line-height`.
 
