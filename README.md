@@ -1,15 +1,21 @@
 # Diving into the World of CSS (Cascading Stylesheets)
 
-## Problem Statement
+## Learning Goals
+
+- Identify the differences between HTML and CSS
+- List the basic characteristics of CSS
+- Declare CSS properties and values
+
+## Introduction
 
 Browsers combine the content (HTML) and presentation (CSS) layers to
-display web pages.  CSS is the language for styling web pages.
+display web pages. CSS is the language we use for styling web pages.
 
-CSS instructions live apart from the HTML elements and have a different
-look and feel ("syntax"). CSS directives give web pages their specific look and
-feel.  If you have ever been impressed by how a website can be displayed on a
-desktop browser while the same content looks great on a mobile device, you have
-CSS to thank for it!
+CSS instructions live apart from the HTML elements and have a different look and
+feel ("syntax"). CSS directives give web pages their specific appearance. If you
+have ever been impressed by how a website can be displayed on a desktop browser
+while the same content looks great on a mobile device, you have CSS to thank for
+it!
 
 One of the most amazing displays of the power of CSS is the
 [CSS Zen Garden](http://www.csszengarden.com/) where people take the _exact
@@ -25,13 +31,7 @@ Astounding, right!?
 We know now what CSS is and its purpose, so how does it differ from HTML and
 how can we use it?
 
-## Objectives
-
-1. Recognize the differences between HTML and CSS
-2. List the basics of CSS
-3. Declare CSS properties and values
-
-## Recognize The Differences Between HTML And CSS
+## Identify the Differences Between HTML and CSS
 
 HTML and CSS play two different roles. When we write HTML, we focus on
 structure, hierarchy, and meaning &mdash; the "marking-up" of content.
@@ -63,7 +63,7 @@ As you ask yourself these questions, your focus is on the *aesthetic* quality
 of the page. For each bit of _content_ we can define a _presentation rule_
 that will change the way the HTML is displayed.
 
-## List the Basics of CSS
+## List the Basic Characteristics of CSS
 
 For each _presentation rule_, there are 3 things to keep in mind:
 
@@ -153,7 +153,7 @@ selects the HTML element with the id 'welcome-message' (e.g. <p id='welcome-mess
 
 ## Declare CSS Properties and Values
 
-Each element has a list of qualities that can be styled.  CSS "property" names
+Each element has a list of qualities that can be styled. CSS "property" names
 identify those qualities. For text styling, examples of property names include
 text `color`, `text-align` and `line-height`.
 
@@ -204,3 +204,7 @@ With the combination of HTML and CSS, you are able to define content,
 structure, and style to websites. Using a CSS selector like `h1` or `p` paired
 with a declaration block, you will change the display of that element.
 Declaration blocks are collections of CSS properties and values.
+
+## Resources
+
+- [Mozilla Developer Network: Introduction to CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
