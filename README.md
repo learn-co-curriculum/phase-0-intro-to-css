@@ -9,7 +9,7 @@
 ## Introduction
 
 Browsers combine the content (HTML) and presentation (CSS) layers to
-display web pages. CSS is the language we use for styling web pages.
+display web pages. CSS — Cascading Style Sheets — is the language we use for styling web pages.
 
 CSS instructions live apart from the HTML elements and have a different look and
 feel ("syntax"). CSS directives give web pages their specific appearance. If you
