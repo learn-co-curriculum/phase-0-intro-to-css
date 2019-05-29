@@ -1,4 +1,4 @@
-# Diving into the World of CSS (Cascading Stylesheets)
+# Diving into the World of CSS (Cascading Style Sheets)
 
 ## Learning Goals
 
