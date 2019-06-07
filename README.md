@@ -208,3 +208,4 @@ Declaration blocks are collections of CSS properties and values.
 ## Resources
 
 - [Mozilla Developer Network: Introduction to CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
+
