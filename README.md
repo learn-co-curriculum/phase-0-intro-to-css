@@ -1,4 +1,4 @@
-# Diving into the World of CSS (Cascading Style Sheets)
+# Intro to CSS
 
 ## Learning Goals
 
@@ -34,7 +34,7 @@ how can we use it?
 ## Identify the Differences Between HTML and CSS
 
 HTML and CSS play two different roles. When we write HTML, we focus on
-structure, hierarchy, and meaning &mdash; the "marking-up" of content.
+structure, hierarchy, and meaning — the "marking-up" of content.
 Questions in the mind of an HTML author are:
 
 * Is it best to list these members' names with numbers, or bullets?
