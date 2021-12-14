@@ -122,12 +122,12 @@ p {
 
 The element type `class` is a commonly used selector. Class selectors are used
 to **select all elements that share a given class name**. The class selector
-syntax is: `.classname`. Prefix the class name with a '.'(period).
+syntax is: `.classname`. Prefix the class name with a `.` (period).
 
 ```css
 /*
-select all elements that have the 'important-topic' classname (e.g. <h1 class='important-topic'>
-and <h1 class='important-topic'>)
+select all elements that have the 'important-topic' classname (e.g. <h2 class='important-topic'>
+and <h2 class='important-topic'>)
 */
 .important-topic {
 }
@@ -177,9 +177,9 @@ A CSS property name with a CSS property value is a **CSS declaration**. To apply
 a CSS declaration like `color: blue` to a specific HTML element, you need to
 combine your CSS declaration with a CSS selector. The association between one or
 more CSS declarations and a CSS selector is called a **CSS declaration block**.
-CSS declarations (one or more) that applied to a specific selector are wrapped
-by curly braces (`{ }`). Each declaration inside a declaration block **must** be
-separated by a semi-colon (`;`).
+CSS declarations (one or more) that are to be applied to a specific selector are
+wrapped by curly braces (`{ }`). Each declaration inside a declaration block
+**must** be separated by a semi-colon (`;`).
 
 Below is a sample CSS declaration block.
 
