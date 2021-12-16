@@ -22,9 +22,12 @@ One of the most amazing displays of the power of CSS is the
 [CSS Zen Garden](http://www.csszengarden.com/) where people take the _exact
 same_ HTML page and use CSS to create _wildly_ different pages. Take a look!
 
-![CSS Zen Garden 1](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden1.png "A long-scrolling single-page CSS Zen Garden design")
-![CSS Zen Garden 2](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden2.png "An animated CSS, full-screen browser single-page style Zen Garden design")
-![CSS Zen Garden 3](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png "Blog-like CSS Zen Garden designs")
+![CSS Zen Garden 1](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden1.png
+"A long-scrolling single-page CSS Zen Garden design")
+![CSS Zen Garden 2](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden2.png
+"An animated CSS, full-screen browser single-page style Zen Garden design")
+![CSS Zen Garden 3](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png
+"Blog-like CSS Zen Garden designs")
 
 Like we said: all the difference between these images is created by CSS!
 Astounding, right!?
@@ -119,12 +122,12 @@ p {
 
 The element type `class` is a commonly used selector. Class selectors are used
 to **select all elements that share a given class name**. The class selector
-syntax is: `.classname`. Prefix the class name with a '.'(period).
+syntax is: `.classname`. Prefix the class name with a `.` (period).
 
 ```css
 /*
-select all elements that have the 'important-topic' classname (e.g. <h1 class='important-topic'>
-and <h1 class='important-topic'>)
+select all elements that have the 'important-topic' classname (e.g. <h2 class='important-topic'>
+and <h2 class='important-topic'>)
 */
 .important-topic {
 }
@@ -174,9 +177,9 @@ A CSS property name with a CSS property value is a **CSS declaration**. To apply
 a CSS declaration like `color: blue` to a specific HTML element, you need to
 combine your CSS declaration with a CSS selector. The association between one or
 more CSS declarations and a CSS selector is called a **CSS declaration block**.
-CSS declarations (one or more) that applied to a specific selector are wrapped
-by curly braces (`{ }`). Each declaration inside a declaration block **must** be
-separated by a semi-colon (`;`).
+CSS declarations (one or more) that are to be applied to a specific selector are
+wrapped by curly braces (`{ }`). Each declaration inside a declaration block
+**must** be separated by a semi-colon (`;`).
 
 Below is a sample CSS declaration block.
 
