@@ -18,20 +18,6 @@ have ever been impressed by how a website can be displayed on a desktop browser
 while the same content looks great on a mobile device, you have CSS to thank for
 it!
 
-One of the most amazing displays of the power of CSS is the
-[CSS Zen Garden](http://www.csszengarden.com/) where people take the _exact
-same_ HTML page and use CSS to create _wildly_ different pages. Take a look!
-
-![CSS Zen Garden 1](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden1.png
-"A long-scrolling single-page CSS Zen Garden design")
-![CSS Zen Garden 2](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden2.png
-"An animated CSS, full-screen browser single-page style Zen Garden design")
-![CSS Zen Garden 3](https://curriculum-content.s3.amazonaws.com/fewds-css/introduction-to-css/zengarden3.png
-"Blog-like CSS Zen Garden designs")
-
-Like we said: all the difference between these images is created by CSS!
-Astounding, right!?
-
 We know now what CSS is and its purpose, so how does it differ from HTML and
 how can we use it?
 
