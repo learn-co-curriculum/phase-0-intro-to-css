@@ -22,12 +22,9 @@ One of the most amazing displays of the power of CSS is
 [Style Stage](https://stylestage.dev/styles/) where people take the _exact
 same_ HTML page and use CSS to create _wildly_ different pages. Take a look!
 
-![Style Stage 1](https://curriculum-content.s3.amazonaws.com/phase-0/intro-to-css/style-stage-1.png
-"Abandoned Stage by Andrey Kudryavtsev")
-![Style Stage 2](https://curriculum-content.s3.amazonaws.com/phase-0/intro-to-css/style-stage-2.png
-"A Scottish Landscape by Alistair Shepherd")
-![Style Stage 3](https://curriculum-content.s3.amazonaws.com/phase-0/intro-to-css/style-stage-3.png
-"Bulletin by Paulo Nunes")
+![Style Stage 1](https://curriculum-content.s3.amazonaws.com/phase-0/intro-to-css/style-stage-1.png "Abandoned Stage by Andrey Kudryavtsev")
+![Style Stage 2](https://curriculum-content.s3.amazonaws.com/phase-0/intro-to-css/style-stage-2.png "A Scottish Landscape by Alistair Shepherd")
+![Style Stage 3](https://curriculum-content.s3.amazonaws.com/phase-0/intro-to-css/style-stage-3.png "Bulletin by Paulo Nunes")
 
 Like we said: all the difference between these images is created by CSS!
 Astounding, right!?
@@ -127,13 +124,13 @@ syntax is: `.classname`. Prefix the class name with a `.` (period).
 ```css
 /*
 select all elements that have the 'important-topic' classname (e.g. <h2 class='important-topic'>
-and <h2 class='important-topic'>)
+and <p class='important-topic'>)
 */
 .important-topic {
 }
 
 /*
-select all elements that have the 'helpful-hint' classname (e.g. <p class='helpful-hint'>
+select all elements that have the 'helpful-hint' classname (e.g. <h2 class='helpful-hint'>
 and <p class='helpful-hint'>)
 */
 .helpful-hint {
